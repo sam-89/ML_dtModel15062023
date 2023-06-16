@@ -18,7 +18,7 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-        <input type="text" name="Rooms" placeholder="Rooms" value="@Request["inputText"]" required="required"  /><br>
+        <input type="text" name="Rooms" placeholder="Rooms" required="required"  /><br>
     	<input type="text" name="Bathroom" placeholder="Bathroom" required="required" /><br>
         <input type="text" name="Landsize" placeholder="Landsize" required="required" /><br>
         <input type="text" name="Lattitude" placeholder="Lattitude" required="required" /><br>
